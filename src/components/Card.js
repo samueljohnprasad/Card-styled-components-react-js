@@ -113,7 +113,7 @@ const Card = ({ hexa, title, description, image }) => (
     <Screenshot image={image} />
     <Content>
       <Title>{title}</Title>
-      <Description>{description}</Description>
+      <Description><a href= {`${description}`} >{description}</a> </Description>
       <BottomBar background={hexa} />
     </Content>
   </Style>
