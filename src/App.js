@@ -44,7 +44,7 @@ const Grid = styled.div`
 export default function App() {
   return (
     <Page>
-      <Badge fixed>samuel john prasad</Badge>
+      <Badge fixed>samuel john prasad.</Badge>
       <Grid>
         {websites.map((website, index) => (
           <Card
